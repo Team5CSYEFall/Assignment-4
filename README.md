@@ -9,6 +9,7 @@ When you’re ready to move your models from research to production, use TFX to 
 ## Step 1:Train TensorFlow models using TensorFlow Extended (TFX)
 We used the following architecture to train the model for the anonymized data using BERT and it leverages TensorFlow Hub, Tensorflow Transform, TensorFlow Data Validation and Tensorflow Text and Tensorflow Serving
 
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/tfx.jpg)
 
 ### What preprocessing does BERT require?
 Transformers like BERT are initially trained with two main tasks in mind:
@@ -25,8 +26,33 @@ That way all input_word_ids tensors will have the same lengths but the transform
 ● Building a simple model architecture with Keras 
 ● Composing the model pipeline with TensorFlow Extended, e.g. TensorFlow Transform, TensorFlow Data Validation and then consuming the tf.Keras model with the latest Trainer component from TFX.
 
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/o.png)
+
 We created a BERT model on IMDB dataset and then we exported the trained model to Google Drive.
+
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/t.png)
 
 
 The model here is savedmodel.pb
+
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/th.png)
+
+## Step 2: Use the TENSORFLOW TFX RESTFUL API to serve the model 
+
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/f.png)
+
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/fi.png)
+
+## Step 3:Dockerize the API service
+
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/s.png)
+
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/se.png)
+
+## Step 4: Build a Reference App in Streamlit to test the API 
+
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/e.png)
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/n.png)
+
+
 
