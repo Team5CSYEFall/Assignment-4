@@ -51,8 +51,8 @@ The model here is savedmodel.pb
 
 ## Step 4: Build a Reference App in Streamlit to test the API 
 
-![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/e.png)
-![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/n.png)
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/1.png)
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/2.png)
 
 
 
