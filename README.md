@@ -9,7 +9,7 @@ When you’re ready to move your models from research to production, use TFX to 
 ## Step 1:Train TensorFlow models using TensorFlow Extended (TFX)
 We used the following architecture to train the model for the anonymized data using BERT and it leverages TensorFlow Hub, Tensorflow Transform, TensorFlow Data Validation and Tensorflow Text and Tensorflow Serving
 
-![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/tfx.jpg)
+![picture](https://github.com/Team5CSYEFall/Assignment-4/blob/main/img/tfx.JPG)
 
 ### What preprocessing does BERT require?
 Transformers like BERT are initially trained with two main tasks in mind:
